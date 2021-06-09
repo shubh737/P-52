@@ -1,0 +1,58 @@
+h1 {
+    color: #dc143c;
+   
+}
+h2{
+    color: #6a5acd;
+     
+}
+.header {
+    background-color: #ffe4c4;
+    display: flex;
+    justify-content: space-between;
+}
+.grid {
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+
+    border-radius: 20px;
+    background-color: #ffffff;
+    font-family: fantasy;
+
+    margin: 20px;
+
+}
+.origami {
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+
+    padding: 30px;
+    margin: 25px; 
+
+}
+/*.textimage {
+    position: relative;
+
+}
+.textimage:hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}*/
+img {
+    border: 5px solid #555;
+  }
+  a:link {
+    color: red;
+}
+a:visited {
+    color: green;
+} 
+.origami:hover {
+    transform: scale(1.2);
+    opacity: 0.5;
+
+    
+}
